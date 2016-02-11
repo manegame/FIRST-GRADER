@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Draw gradients</title>
+
+	<link type="text/css" rel="stylesheet" href="style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<script type="text/javascript">
+	 	$(document).ready(function(){
+ 			 	$('#testDiv').on('click', function(){
+  					subDivide();
+				});
+ 		});
+	</script>
+
+	<meta charset="UTF-8">
+
+	<meta author="Manus Nijhoff">
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/script-2.js"></script>
+</head>
+
+<body onload="three()">
+
+<div class="welcome"><p>Click and drag to draw<br><br>Click in the top right corner<br>to show/hide the tools</p><p id="credits"><br>Made by <a href="http://manusnijhoff.nl" target="_blank">Manus</a></p></div>
+
+
+<div class="triggerbuttons" alt="show / hide">
+	<p>&#9776;</p>
+</div>
+	
+	<div class="buttonbar">
+		<p>ADD NEW GRID<br></p>
+		
+		<button onclick="three()">3 X 3</button>
+		<button onclick="nine()">9 X 9</button>
+		<button onclick="twentySeven()">27 X 27</button>
+		<button onclick="fiftyFour()">54 X 54</button>
+		<button onclick="eightyOne()">81 X 81</button>
+		<p></p>
+		<p>GRADIENT COLOR</p>
+		<p></p>
+		<button class="gradient1" onclick="gr1()"></button>
+		<button class="gradient2" onclick="gr2()"></button>
+		<button class="gradient3" onclick="gr3()"></button>
+		<button class="gradient4" onclick="gr4()"></button>
+		<button class="gradient5" onclick="gr5()"></button>
+		<button class="gradient6" onclick="gr6()"></button>
+		<button class="gradient7" onclick="gr7()"></button>
+		<button class="gradient8" onclick="gr8()"></button>
+		<button class="gradient9" onclick="gr9()"></button>
+		<p></p>
+		<p>BACKGROUND COLOR</p>
+		<button onclick="redBg()" style="background-color: red; color:white">R</button>
+		<button onclick="greenBg()" style="background-color: #00ff00; color:white">G</button>
+		<button onclick="blueBg()" style="background-color: blue; color:white">B</button>
+		<button onclick="blackBg()" style="background-color: black; color: white">BLACK</button>
+		<button onclick="whiteBg()" >WHITE</button>
+		<p></p>
+		<p>TOOLS</p>
+		<button onclick="erase()">ERASER</button>
+		<p></p>
+		<button onmousedown="syncAll()" onmouseup="syncAll()">SYNCHRONISE</button>
+		<p></p>
+		<button class="enjoy">ENJOY</button>
+		<p></p>
+		<button class="info">ABOUT</button>
+
+	</div>
+
+	<!-- BUTTONS FOR STYLING -->
+
+
+</body>
+
+</html>

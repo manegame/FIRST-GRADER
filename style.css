@@ -1,0 +1,467 @@
+	* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    margin: 0;
+	padding: 0;
+}
+
+/*::-webkit-scrollbar
+{
+  width: 9px;  
+  height: 3px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(122, 122, 122, 0.2);
+}*/
+
+
+	a, a:visited, a:hover, a:active 
+	{ 
+		color: blue;
+		text-decoration: none;
+
+
+	}
+
+ 	html, body {
+ 		width: 100%;
+ 		height: 100%;
+ 	}
+
+	.redBg {
+		background-color: red;
+	}
+
+	.greenBg {
+		background-color: #00ff00;
+	}
+
+	.blueBg {
+		background-color: blue;
+	}
+
+	.blackBg {
+		background-color: black;
+	}
+
+	p {
+		font-family: sans-serif;
+		font-size: 3em;
+	}
+
+	.dropDiv {
+		cursor: pointer;
+		padding:0; 
+		margin: 0;
+		position: relative;
+		float: left;
+	}
+
+	.border {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+    	-webkit-box-sizing: border-box;
+    	border: 1px solid black;
+	}
+
+	.buttonbar p {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 0.8em;
+		font-weight: bold ;
+	}
+
+	img.desaturate { 
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	}
+
+	img.invert {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);	
+	}
+
+	img.desaturate.invert {
+		-webkit-filter: invert(100%) grayscale(100%);
+	filter: invert(100%) grayscale(100%);
+	}
+
+	.dropDiv:hover {
+		/*opacity: 0.8;*/
+	}
+
+	.three {
+		/*width: 33.33333333%;*/
+/*		height: 268px;
+*/	}
+
+	.nine {
+		/*width:11.11111111%;*/
+/*		height: 90px;
+*/	}
+
+	.twenty-seven {
+		/*width: 3.7%;*/
+/*		height: 30px;
+*/	}
+
+	.fifty-four {
+		/*width: 1.85%;*/
+/*		height: 15px;
+*/		
+	}
+
+	.eighty-one {
+		
+	}
+
+/*	.eighty-one {
+		width: 1.6%;
+		height: 14px;
+	}*/
+
+	.imgDiv {
+		padding:0; 
+		margin: 0;
+		position: relative;
+		float: left;
+		/*background-color: red;*/
+	}
+
+	.gradient1 {
+
+		background: linear-gradient(181deg, #ffffff, #00ff20, #af00ff);
+		background-size: 600% 600%;
+
+		-webkit-animation: animate 2s ease infinite;
+		-moz-animation: animate 2s ease infinite;
+		animation: animate 2s ease infinite;
+	}
+
+	.gradient2 {
+
+		background: linear-gradient(90deg, #ffffff, #0dff00, #000000, #ff0000, #ffffff);
+		background-size: 1000% 1000%;
+
+		-webkit-animation: Animanus 9s ease infinite;
+		-moz-animation: Animanus 9s ease infinite;
+		animation: Animanus 9s ease infinite;
+
+	}
+
+	.gradient3 {
+		background: linear-gradient(356deg, #000000, #ff0000, #eeff00, #ffffff);
+		background-size: 800% 800%;
+
+		-webkit-animation: AnimationName 14s ease infinite;
+		-moz-animation: AnimationName 14s ease infinite;
+		animation: AnimationName 14s ease infinite;
+	}
+
+	.gradient4 {
+	background: linear-gradient(270deg, #ffffff, #ff0000, #ffffff, #ff0000, #ffffff, #ff0000, #ffffff, #ff0000, #ffffff);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: roodwit 9s linear infinite;
+	-moz-animation: roodwit 9s linear infinite;
+	animation: roodwit 9s linear infinite;
+	
+	}
+
+	.gradient5 {
+		background: linear-gradient(307deg, #1100ff, #ffffff, #eeff00);
+background-size: 600% 600%;
+
+-webkit-animation: schuin 22s ease infinite;
+-moz-animation: schuin 22s ease infinite;
+animation: schuin 22s ease infinite;
+	}
+
+	.gradient6 {
+		background: linear-gradient(47deg, #ff0000, #ffffff, #1c00ff);
+background-size: 600% 600%;
+
+-webkit-animation: flits 1s ease infinite;
+-moz-animation: flits 1s ease infinite;
+animation: flits 1s ease infinite;
+	}
+
+	.gradient7 {
+		background: linear-gradient(1deg, #000000, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #000000);
+background-size: 1600% 1600%;
+
+-webkit-animation: zwartwit 10s ease infinite;
+-moz-animation: zwartwit 10s ease infinite;
+animation: zwartwit 10s ease infinite;
+	}
+
+	.gradient8 {
+
+		background: linear-gradient(1deg, #1100ff, #ffffff, #ffffff, #ffffff, #ffffff, #f200ff, #ffffff, #ffffff);
+background-size: 1600% 1600%;
+
+-webkit-animation: kleuur 18s ease infinite;
+-moz-animation: kleuur 18s ease infinite;
+animation: kleuur 18s ease infinite;
+
+
+	}
+
+	.gradient9 {
+background: linear-gradient(180deg, #ff0000, #ffcd00, #c1ff00, #45ff00, #00ff4d, #00ffb2, #0098ff, #0027ff, #8200ff, #ff00ea, #ff0014, #ff0014);
+background-size: 2400% 2400%;
+
+-webkit-animation: flitsregenboog 7s ease infinite;
+-moz-animation: flitsregenboog 7s ease infinite;
+animation: flitsregenboog 7s ease infinite;
+	}
+
+	@-webkit-keyframes kleuur {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+@-moz-keyframes kleuur {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+@keyframes kleuur { 
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+
+	@-webkit-keyframes zwartwit {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+@-moz-keyframes zwartwit {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+@keyframes zwartwit { 
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+
+	@-webkit-keyframes flitsregenboog {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes flitsregenboog {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes flitsregenboog { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+	@-webkit-keyframes flits {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes flits {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes flits { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+	@-webkit-keyframes schuin {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@-moz-keyframes schuin {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@keyframes schuin { 
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+
+	@-webkit-keyframes roodwit {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+	}
+	@-moz-keyframes roodwit {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@keyframes roodwit { 
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+
+	@-webkit-keyframes Animanus {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 51%}
+	    100%{background-position:0% 50%}
+	}
+	@-moz-keyframes Animanus {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 51%}
+	    100%{background-position:0% 50%}
+	}
+	@keyframes Animanus { 
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 51%}
+	    100%{background-position:0% 50%}
+	}
+
+
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:54% 0%}
+	    50%{background-position:47% 100%}
+	    100%{background-position:54% 0%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:54% 0%}
+	    50%{background-position:47% 100%}
+	    100%{background-position:54% 0%}
+	}
+	@keyframes AnimationName { 
+	    0%{background-position:54% 0%}
+	    50%{background-position:47% 100%}
+	    100%{background-position:54% 0%}
+	}
+
+	@-webkit-keyframes animate {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+	}
+	@-moz-keyframes animate {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+	}
+	@keyframes animate { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+	}
+
+.welcome {
+width: 75%;
+position: fixed;
+top: 32%;
+left: 50%;
+margin-left: -37.5%;
+text-align: center;
+z-index: 9999999;
+}
+
+#credits {
+	display: none;
+}
+
+	.triggerbuttons {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+5&0.79+3,0+49 */
+/*background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.79) 0%, rgba(0,0,0,0.79) 3%, rgba(0,0,0,0.76) 5%, rgba(0,0,0,0) 49%); /* FF3.6-15 */*/
+/*background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.79) 0%,rgba(0,0,0,0.79) 3%,rgba(0,0,0,0.76) 5%,rgba(0,0,0,0) 49%); /* Chrome10-25,Safari5.1-6 */*/
+/*background: linear-gradient(135deg, rgba(0,0,0,0.79) 0%,rgba(0,0,0,0.79) 3%,rgba(0,0,0,0.76) 5%,rgba(0,0,0,0) 49%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */*/
+		
+		cursor: pointer;
+		position: fixed;
+		z-index: 9999;
+		top: 0;
+		right: 0;
+		width: auto;
+		height: auto;
+		opacity: 1;
+
+		-webkit-transition: opacity 0.5s;
+		transition: opacity 0.5s;
+	}
+
+	.triggerbuttons p {
+		cursor: pointer;
+		position: fixed;
+		z-index: 99999;
+		top: 0;
+		right: 20px;
+		-webkit-animation: blink 1s 3;
+		-moz-animation: blink 1s 3;
+		animation: blink 1s 3;
+	}
+
+	@keyframes blink {
+	    0% {
+	        opacity: 1;
+	    }
+	    50% {
+	        opacity: 0;
+	    }
+	    100% {
+	        opacity: 1;
+	    }
+	}
+
+	.triggerbuttons:hover , .triggerbuttons.active {
+		opacity : 1;
+	}
+
+	.buttonbar {
+		position: fixed;
+		text-align: left;
+		width:120px;
+		height: auto;
+		top: 60px;
+		right: 20px;
+		z-index: 99999;
+		display:none;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.eighty-one img {
+		top: 0;
+	}
+
+	button {
+		background-color: white;
+		text-align: left;
+		text-indent: 5px;
+		color: black;
+		display: block;
+		height: 22px;
+		width: 100%;
+		font-size: 0.8em;
+		margin-bottom: 2px;
+	}
