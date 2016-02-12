@@ -234,16 +234,16 @@ function fiftyFour() {
 	
 }
 
-function eightyOne() {
+// function eightyOne() {
 
-	eraser = false;
-	addedClass = "eighty-one";
+// 	eraser = false;
+// 	addedClass = "eighty-one";
 
-	hor = 81;
-	ver = 81;
+// 	hor = 81;
+// 	ver = 81;
 
-	make();
-}
+// 	make();
+// }
 
 $(document).ready(function(){
 
