@@ -32,10 +32,14 @@ function make() {
 			var bodHeight = window.innerHeight;
 			var bodWidth = window.innerWidth;
 
-			console.log(bodHeight / ver);
-			console.log(bodHeight / hor);
-			div.style.height = bodHeight / ver+ 'px';
-			div.style.width = bodWidth / hor+ 'px';
+			var cellHeight = ((Math.floor(bodHeight / ver))) + 'px';
+			var cellWidth = ((Math.floor(bodWidth / hor)) - 5) + 'px'
+
+
+			console.log("height : " + cellHeight);
+			console.log("width : " + cellWidth);
+			div.style.height = cellHeight;
+			div.style.width = cellWidth;
 
 			bod.appendChild(div);
 		}
@@ -186,8 +190,6 @@ function three() {
 
 	addedClass = "three";
 
-
-
 	hor = 3;
 	ver = 3;
 
@@ -255,7 +257,7 @@ var timer = 0;
 
 setInterval(function(){
 	timer = timer + 1;
-	console.log(timer);
+	//console.log(timer);
 	if(timer == 120){
 		document.location.href = "drag.html" ;
 	}
@@ -266,7 +268,7 @@ setInterval(function(){
 
 		timer = 0;
 
-		console.log(timer);
+		//console.log(timer);
 
 	});
 
@@ -274,7 +276,7 @@ setInterval(function(){
 	$('.enjoy').on("click",function() {
 
 		var timing = document.body.scrollHeight;
-		console.log(timing);
+		//console.log(timing);
 
 	    $('html, body').animate({ scrollTop: 0 }, timing, 'linear', function () {
 	    });
@@ -295,9 +297,9 @@ setInterval(function(){
 		
 		if( $('.buttonbar').not(":hover") ){
 
-		console.log('nu weg');
+		//console.log('nu weg');
 		window.setTimeout(function(){
-				console.log('weg');
+				//console.log('weg');
 						if( $('.buttonbar').is(':visible') ){
 							window.setTimeout(function(){
 						$('.buttonbar, .welcome').fadeOut('fast');
