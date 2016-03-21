@@ -32,14 +32,14 @@ function make() {
 			var bodHeight = window.innerHeight;
 			var bodWidth = window.innerWidth;
 
-			var cellHeight = ((Math.floor(bodHeight / ver))) + 'px';
-			var cellWidth = ((Math.floor(bodWidth / hor)) - 5) + 'px'
+			// var cellHeight = ((Math.floor(bodHeight / ver))) + 'px';
+			// var cellWidth = ((Math.floor(bodWidth / hor))) + 'px'
 
 
-			console.log("height : " + cellHeight);
-			console.log("width : " + cellWidth);
-			div.style.height = cellHeight;
-			div.style.width = cellWidth;
+			// console.log("height : " + cellHeight);
+			// console.log("width : " + cellWidth);
+			// div.style.height = cellHeight;
+			// div.style.width = cellWidth;
 
 			bod.appendChild(div);
 		}
